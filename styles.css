@@ -1,0 +1,90 @@
+/* styles_mehmet.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.showcase {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.showcase h1 {
+    font-size: 3rem;
+}
+
+.showcase p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.buttons a:hover {
+    background: #ff3d2e;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section.alt-background {
+    background: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skills-list li {
+    background: #4e4376;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+footer {
+    background: #2b5876;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
